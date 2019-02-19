@@ -17,7 +17,7 @@ class WeaponCreator : AppCompatActivity() {
             var tam=false
             var long=false
             var form=false
-            str = AtrTag("LM", "PS", str)
+            var str1 = AtrTag("Lamina", "Pesada", str)
             var cont = 0
             while (cont < nv.toInt()) {
                 var r = (0..2).random()
@@ -36,7 +36,7 @@ class WeaponCreator : AppCompatActivity() {
                 cont++
             }
 
-            edtRes.setText("Arma ${nv} ${str}")
+            edtRes.setText("${str1} +${nv} ${str}")
         }
 
         btnVolt.setOnClickListener() {

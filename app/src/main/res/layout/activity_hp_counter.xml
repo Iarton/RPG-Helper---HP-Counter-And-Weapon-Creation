@@ -4,7 +4,116 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HpCounter">
+    tools:context=".HpCounter"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HP"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtHP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RS"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtRS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtNm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicionar HP" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HP"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtHp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     "
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RS"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtRs1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     "
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtNome1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="     "
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnAtq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dano" />
+
+    <EditText
+        android:id="@+id/edtDn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        />
 
     <Button
         android:id="@+id/btnVolt"
